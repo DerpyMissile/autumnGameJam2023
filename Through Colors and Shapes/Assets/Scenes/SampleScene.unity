@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
+  - component: {fileID: 1027173959}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 1027173956}
   - component: {fileID: 1027173955}
   - component: {fileID: 1027173958}
-  - component: {fileID: 1027173959}
+  - component: {fileID: 1027173960}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -675,9 +675,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e814d27eb842e4f7493549c4aa0b24bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 1027173954}
+--- !u!114 &1027173960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027173954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21cc08e1ca6d3a42824bdd4d7efbe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 7
   Move: 0
-  jump: 7
+  jump: 10
+  numJumps: 1
+  maxJumps: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -685,3 +700,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1027173957}
   - {fileID: 815303623}
+  - {fileID: 415971020}
