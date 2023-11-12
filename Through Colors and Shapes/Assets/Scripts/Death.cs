@@ -24,9 +24,5 @@ public class Death_2 : MonoBehaviour
             Player.transform.position = startPoint.transform.position;
         }
     }
-<<<<<<< Updated upstream
 }
 
-=======
-}
->>>>>>> Stashed changes

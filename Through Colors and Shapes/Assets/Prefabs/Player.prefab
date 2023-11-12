@@ -173,10 +173,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   Move: 0
-<<<<<<< HEAD
-  jump: 10
-=======
   jump: 7
->>>>>>> 45d9950823de95bd587a069ff4d07dcfb609f2c3
   numJumps: 1
   maxJumps: 1
